@@ -60,3 +60,20 @@ class Session(models.Model):
     def __str__(self):
         return f"{self.unit.name} - {self.date} ({self.start_time}-{self.end_time})"
 
+# Attendance Model
+from django.db import models
+from django.contrib.auth.models import User
+from session.models import Session  # This assumes your session app has a Session model
+
+class Attendance(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    session = models.ForeignKey(Session, on_delete=models.CASCADE)
+    timestamp = models.DateTimeField(auto_now_add=True)
+    is_valid = models.BooleanField(default=True)
+
+    class Meta:
+        unique_together = ('user', 'session')  # Prevents duplicate attendance
+
+    def __str__(self):
+        return f"{self.user.username} attended {self.session.unit.name} at {self.timestamp}"
+
