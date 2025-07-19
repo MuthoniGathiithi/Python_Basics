@@ -15,3 +15,9 @@ class Unit(models.Model):
   name=models.CharField(max_length=100)
   code=models.CharField(max_length=10)
   course = models.ForeignKey('Course', on_delete=models.CASCADE)
+
+
+class Lecturer(models.Model):
+    name = models.CharField(max_length=100)
+    email = models.EmailField()
+    units = models.ManyToManyField('Unit')  # Many-to-many relationship
