@@ -13,3 +13,4 @@ def grade_feedback(average):
         return 'F'
 
 grades_input = input("Enter 5 grades separated by spaces: ")
+grades = list(map(int, grades_input.split()))
