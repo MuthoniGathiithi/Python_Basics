@@ -1,0 +1,59 @@
+
+Kenya - Nairobi
+Tanzania - Dodoma
+Uganda - Kampala
+Rwanda - Kigali
+Burundi - Gitega
+South Sudan - Juba
+Ethiopia - Addis Ababa
+Somalia - Mogadishu
+Nigeria - Abuja
+Ghana - Accra
+Egypt - Cairo
+South Africa - Pretoria
+Morocco - Rabat
+Algeria - Algiers
+Zimbabwe - Harare
+Zambia - Lusaka
+Namibia - Windhoek
+Botswana - Gaborone
+Senegal - Dakar
+Ivory Coast - Yamoussoukro
+Cameroon - Yaoundé
+Libya - Tripoli
+Tunisia - Tunis
+Mali - Bamako
+Niger - Niamey
+Malawi - Lilongwe
+Mozambique - Maputo
+Chad - N'Djamena
+United States - Washington, D.C.
+Canada - Ottawa
+Mexico - Mexico City
+Brazil - Brasília
+Argentina - Buenos Aires
+Germany - Berlin
+France - Paris
+United Kingdom - London
+Italy - Rome
+Spain - Madrid
+China - Beijing
+Japan - Tokyo
+South Korea - Seoul
+India - New Delhi
+Pakistan - Islamabad
+Bangladesh - Dhaka
+Russia - Moscow
+Australia - Canberra
+New Zealand - Wellington
+Saudi Arabia - Riyadh
+UAE - Abu Dhabi
+Turkey - Ankara
+Indonesia - Jakarta
+Philippines - Manila
+Vietnam - Hanoi
+Thailand - Bangkok
+Iran - Tehran
+Iraq - Baghdad
+Afghanistan - Kabul
+Ukraine - Kyiv
