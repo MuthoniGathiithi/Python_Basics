@@ -11,3 +11,5 @@ def grade_feedback(average):
         return 'D'
     else:
         return 'F'
+
+grades_input = input("Enter 5 grades separated by spaces: ")
