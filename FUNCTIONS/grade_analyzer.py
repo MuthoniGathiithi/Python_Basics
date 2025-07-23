@@ -14,3 +14,7 @@ def grade_feedback(average):
 
 grades_input = input("Enter 5 grades separated by spaces: ")
 grades = list(map(int, grades_input.split()))
+average = get_average(grades)
+grade = grade_feedback(average)
+print(f"Your average score is: {average}")
+print(f"Your grade is: {grade}")
